@@ -1,0 +1,102 @@
+:root{
+    --font-family : Arial;
+    --highlight-color: #A0A0A0;
+    --font-size: 50px;
+    --description-size: 40px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    text-align: justify;
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    
+}
+.nav  > a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.middle-description{
+    margin: 20px;
+    height: 400px;
+}
+
+.simple-intro {
+    margin-bottom: 20px;
+    padding: 0px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    height: 600px;
+    background-color: #6666FF;
+}
+
+.middle-description{
+    width: 700px;
+}
+.sec-about-topic{
+    font-size: 60px;
+}
+.description-sec-about{
+    
+    font-size: 20px;
+}
+
+
+.simple-intro > img{
+    width: 300px;
+    border-radius: 50%;
+}
+.subtitle{
+    font-size: 50px;
+}
+.cont-goals{
+    font-size: 20px;
+    height: 800px;
+}
+.cont-contact > h1{
+    font-size: 50px;
+    
+}
+.cont-projects{
+    height: auto;
+
+}
+.cont-projects > h1{
+    font-size: 50px;
+}
+.gol{
+    width: 300px;
+}
+.sodukoimg{
+    width: 300px;
+}
+.cont-projects > span{
+    margin: 20px;
+}
+.Goals{
+    background-color: #3399FF;
+}
+
+.Contact{
+    background-color: #00CC66;
+}
