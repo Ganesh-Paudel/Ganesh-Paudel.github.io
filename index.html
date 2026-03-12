@@ -1,102 +1,113 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganesh Paudel</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
-        <a href="#About"><h4>About</h4></a>
-        <a href="#Goals"><h4>Goals</h4></a>
-        <a href="#Project"><h4>Projects</h4></a>
-        <a href="#Contact"><h4>Contact</h4></a>
-    </div>  
 
-    <div class="simple-intro flex-row sections">
-        <img src="assets/me.jpg" alt="myImage">
-        <div class="intro-text">
-            <h1>Ganesh Paudel</h1>
-            <h4>Student | Learner</h4>
-        </div>
+<nav class="navbar">
+  <div class="logo">Ganesh Paudel</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#goals">Goals</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <h1>Ganesh Paudel</h1>
+  <p>Computer Science Student | Backend Development | Machine Learning</p>
+  <a href="#projects" class="btn">View Projects</a>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+    I am a Computer Science student with a strong interest in backend systems,
+    data analysis, and machine learning. My work focuses on building practical
+    software systems, exploring algorithms, and understanding how data-driven
+    models operate.
+
+    I enjoy developing tools that improve productivity, analyzing real-world
+    datasets, and experimenting with new technologies.
+
+    Currently, I am focused on expanding my experience in backend development
+    and machine learning while building projects that demonstrate strong
+    problem-solving and engineering principles.
+  </p>
+</section>
+
+<section id="goals">
+  <h2>Goals</h2>
+  <p>
+    My goal is to develop expertise in building scalable software systems and
+    intelligent applications.
+
+    Areas of focus include backend engineering, machine learning systems,
+    software architecture, and performance optimization.
+
+    Through continuous learning and hands-on projects, I aim to build impactful
+    software that solves real-world problems while strengthening my
+    understanding of modern computing systems.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-category">
+      <h3>Programming</h3>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+      </ul>
     </div>
 
-    <section id="About" class="About flex-row sections"> 
-        <h1 class="subtitle">About</h1>
-        <div class="middle-description">
-            <p class="description-sec-about">
-                I am a passionate learner and a dedicated student from Nepal with a keen interest in computer science and programming. My technical skills include proficiency in Python, C++, and Java, with a growing enthusiasm for web development and game development.
-                I am pursuing my academic journey at Marshall University, where I am continually expanding my knowledge and applying my skills to real-world projects. My goal is to leverage my expertise and learning mindset to create impactful software solutions and engaging digital experiences.
-            </p>
-        </div>
-    </section>
+    <div class="skill-category">
+      <h3>Technologies</h3>
+      <ul>
+        <li>Git / GitHub</li>
+        <li>Docker</li>
+        <li>REST APIs</li>
+      </ul>
+    </div>
 
-    <section id="Goals" class="Goals flex-row sections">
-        <h1 class="subtitle">Goals</h1>
-        <div class="middle-description">
-            <p class="quote">
-                "The only way to do great work is to love what you do." – Steve Jobs  
-            </p>
-            <h4>Near-Term Goals:</h4>
-            <ul>
-                <li>Build a solid foundation in game development by mastering tools like Unity and Unreal Engine.</li>
-                <li>Create and publish a fully functional game, starting with small projects to enhance my skills in design, programming, and user experience.</li>
-                <li>Continue improving my programming skills, focusing on advanced concepts in Python, C++, and Java for both game and software development.</li>
-            </ul>
-            <h4>Long-Term Goals:</h4>
-            <ul>
-                <li>Develop immersive, high-quality games that combine technical excellence with creative storytelling.</li>
-                <li>Establish a career in software development, contributing to impactful projects in areas like AI, web applications, or mobile solutions.</li>
-                <li>Eventually lead a game or software development team, mentoring others and pushing the boundaries of innovation in the tech industry.</li>
-            </ul>
-        </div>
-    </section>
+    <div class="skill-category">
+      <h3>Areas of Interest</h3>
+      <ul>
+        <li>Backend Development</li>
+        <li>Machine Learning</li>
+        <li>Data Analysis</li>
+      </ul>
+    </div>
 
-    <section id="Project" class="Project flex-row sections">
-        <h1 class="subtitle">Projects</h1>
-        <div class="project-slider">
-            <!-- Example Project -->
-            <div class="project-item">
-                <video autoplay loop muted class="project-media">
-                    <source src="assets/gameOfLife.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p>This is a simple implementation of the Game of Life by John Conway in C++.</p>
-                <a href="https://github.com/Ganesh-Paudel/TheGameOfLife.git" target="_blank">Click here for code</a>
-            </div>
-    
-            <!-- Another Project -->
-            <div class="project-item">
-                <img src="assets/soduko.png" alt="Sudoku Project" class="project-media">
-                <p>This is an implementation of a Sudoku game in Java.</p>
-                <a href="https://github.com/Ganesh-Paudel/Soduko.git" target="_blank">Click here for code</a>
-            </div>
-        </div>
-    </section>
-    
+  </div>
+</section>
 
-    <section id="Contact" class="Contact flex-row sections">
-        <div class="middle-description">
-            <h1 class="subtitle">Contact</h1>
-            <div class="contact-info">
-                <p>Email: <a href="mailto:paudelganesh080@gmail.com">paudelganesh080@gmail.com</a></p>
-                <p>GitHub: <a href="https://github.com/Ganesh-Paudel" target="_blank">github.com/Ganesh-Paudel</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/ganesh-paudel-372123217/" target="_blank">linkedin.com/in/ganesh-paudel</a></p>
-            </div>
-            <div class="social-icons">
-                <a href="https://github.com/Ganesh-Paudel" target="_blank">
-                    <img src="assets/github-icon.png" alt="GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/ganesh-paudel-372123217/" target="_blank">
-                    <img src="assets/linkedin-icon.png" alt="LinkedIn">
-                </a>
-                <a href="mailto:paudelganesh080@gmail.com">
-                    <img src="assets/email-icon.png" alt="Email">
-                </a>
-            </div>
-        </div>
-    </section>
-    
+<section id="projects">
+  <h2>Projects</h2>
+  <div id="project-container" class="project-grid"></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: paudelganesh080@gmail.com</p>
+  <p>GitHub: https://github.com/Ganesh-Paudel</p>
+</section>
+
+<footer>
+  <p>© 2026 Ganesh Paudel</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
