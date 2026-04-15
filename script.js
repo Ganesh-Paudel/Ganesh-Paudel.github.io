@@ -21,7 +21,7 @@ async function loadProjects() {
         <p>Tech: ${tech}</p>
         <p>Status: <span class="status">${project.status}</span></p>
       
-        <ul>${features}</ul>
+        <p>${features}</p>
       
         <a href="${project.link}" target="_blank">View Project</a>
       `;
