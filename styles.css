@@ -79,7 +79,7 @@ section {
 }
 
 .project-card {
-  background: #162235;
+  background: var(--card);
   border-radius: 12px;
   padding: 20px;
   color: #cbd5e1;
