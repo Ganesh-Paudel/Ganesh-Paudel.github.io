@@ -1,22 +1,63 @@
 [
   {
     "title": "Comparative Algorithm Analysis: A* vs Genetic Algorithm in Traffic Pathfinding",
-    "description": "An in-depth research project comparing A* and Genetic Algorithms for pathfinding in simulated real-world traffic networks. Evaluates performance based on execution time, path cost, memory usage, and node exploration across varying graph sizes. Includes visualization and statistical analysis of results.",
+    "description": "Analyzes and compares A* and Genetic Algorithms for pathfinding in simulated traffic networks using performance metrics like execution time, cost, and memory.",
+    "techStack": ["Python", "NetworkX", "Matplotlib"],
+    "features": [
+      "Dynamic graph generation",
+      "Performance comparison across graph sizes",
+      "Visualization of results"
+    ],
+    "status": "Completed",
     "link": "https://github.com/Ganesh-Paudel/Algorithm-Analysis"
   },
   {
     "title": "Java-Based Lexical Analyzer for Source Code Tokenization",
-    "description": "A compiler design project that implements a lexical analyzer in Java. It processes source code input and breaks it into tokens such as keywords, identifiers, operators, and literals. Designed to demonstrate the fundamentals of language parsing and compiler front-end development.",
+    "description": "Implements a lexical analyzer that tokenizes source code into keywords, identifiers, and operators, demonstrating compiler front-end concepts.",
+    "techStack": ["Java"],
+    "features": [
+      "Token classification",
+      "File-based input processing",
+      "Error handling for invalid tokens"
+    ],
+    "status": "Completed",
     "link": "https://github.com/Ganesh-Paudel/Lexical-Analysis"
   },
   {
     "title": "GitHub Repository Analyzer Using GitHub REST API",
-    "description": "A tool that interacts with the GitHub API to analyze repositories. Extracts and visualizes key metrics such as commit frequency, language distribution, and contributor activity. Built to explore API integration, data processing, and software insights generation.",
+    "description": "Analyzes GitHub repositories to extract insights such as commit trends, contributor activity, and language usage.",
+    "techStack": ["Python", "GitHub API"],
+    "features": [
+      "API integration",
+      "Repository statistics extraction",
+      "Data visualization"
+    ],
+    "status": "In Progress",
     "link": "https://github.com/Ganesh-Paudel/Github-Analyzer"
   },
   {
     "title": "Custom Git Version Control System Implementation in Java",
-    "description": "A simplified reimplementation of core Git functionalities in Java, including commit tracking, branching, and version history management. Developed to understand the internal workings of distributed version control systems and file state tracking.",
+    "description": "A simplified version of Git built in Java supporting commits, branching, and version tracking to understand VCS internals.",
+    "techStack": ["Java"],
+    "features": [
+      "Commit tracking",
+      "Branching system",
+      "File version history"
+    ],
+    "status": "Completed",
     "link": "https://github.com/Ganesh-Paudel/MyGit"
-  }
+  },
+  {
+  "title": "Sides: Collection of Small-Scale Coding Projects and Experiments",
+  "description": "A continuously growing collection of small coding projects, experiments, and problem-solving tasks. Focused on exploring new concepts, improving coding efficiency, and testing ideas across different domains in a lightweight and iterative manner.",
+  "techStack": ["Python", "Java", "C++", "Miscellaneous"],
+  "features": [
+    "Collection of mini-projects and coding exercises",
+    "Rapid prototyping and experimentation",
+    "Covers multiple programming concepts and domains",
+    "Continuously updated with new ideas"
+  ],
+  "status": "Ongoing",
+  "link": "https://github.com/Ganesh-Paudel/Sides"
+}
 ]
