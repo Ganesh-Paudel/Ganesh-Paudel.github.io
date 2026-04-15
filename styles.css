@@ -74,16 +74,30 @@ section {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  margin-top: 30px;
 }
 
 .project-card {
-  background: var(--card);
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
-  transition: transform 0.2s ease;
+  background: #1e1e1e;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card ul {
+  padding-left: 20px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4ea1ff;
 }
 
 .project-card:hover {
