@@ -12,16 +12,17 @@ async function loadProjects() {
 
       const tech = project.techStack.join(", ");
       const features = project.features.map(f => `<li>${f}</li>`).join("");
-
+      const statusColor = project.status === "Ongoing" ? "orange" : "lightgreen";
+      
       card.innerHTML = `
         <h3>${project.title}</h3>
         <p>${project.description}</p>
-
+      
         <p><strong>Tech:</strong> ${tech}</p>
-        <p><strong>Status:</strong> ${project.status}</p>
-
+        <p><strong>Status:</strong> <span style="color:${statusColor}">${project.status}</span></p>
+      
         <ul>${features}</ul>
-
+      
         <a href="${project.link}" target="_blank">View Project</a>
       `;
 
