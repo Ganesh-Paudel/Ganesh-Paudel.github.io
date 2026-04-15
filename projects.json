@@ -1,22 +1,22 @@
 [
   {
-    "title": "Algorithm Analysis",
-    "description": "Reasearch on two algorithms and comparing them based on their efficiency in a real lif e traffic scenario",
+    "title": "Comparative Algorithm Analysis: A* vs Genetic Algorithm in Traffic Pathfinding",
+    "description": "An in-depth research project comparing A* and Genetic Algorithms for pathfinding in simulated real-world traffic networks. Evaluates performance based on execution time, path cost, memory usage, and node exploration across varying graph sizes. Includes visualization and statistical analysis of results.",
     "link": "https://github.com/Ganesh-Paudel/Algorithm-Analysis"
   },
   {
-    "title": "Lexical-Analyzer",
-    "description": "A simple lexical analyzer implemented in Java. It reads a source code file and tokenizes it into meaningful components.",
+    "title": "Java-Based Lexical Analyzer for Source Code Tokenization",
+    "description": "A compiler design project that implements a lexical analyzer in Java. It processes source code input and breaks it into tokens such as keywords, identifiers, operators, and literals. Designed to demonstrate the fundamentals of language parsing and compiler front-end development.",
     "link": "https://github.com/Ganesh-Paudel/Lexical-Analysis"
-  }
+  },
   {
-    "title": "My GitHub Analyzer",
-    "description": "A tool that analyzes GitHub repositories using the GitHub API.",
+    "title": "GitHub Repository Analyzer Using GitHub REST API",
+    "description": "A tool that interacts with the GitHub API to analyze repositories. Extracts and visualizes key metrics such as commit frequency, language distribution, and contributor activity. Built to explore API integration, data processing, and software insights generation.",
     "link": "https://github.com/Ganesh-Paudel/Github-Analyzer"
   },
   {
-    "title": "Git in Java",
-    "description": "A simple implementation of Git version control system in java. For learning purposes.",
+    "title": "Custom Git Version Control System Implementation in Java",
+    "description": "A simplified reimplementation of core Git functionalities in Java, including commit tracking, branching, and version history management. Developed to understand the internal workings of distributed version control systems and file state tracking.",
     "link": "https://github.com/Ganesh-Paudel/MyGit"
-  },
+  }
 ]
