@@ -79,10 +79,10 @@ section {
 }
 
 .project-card {
-  background: #162235; /* match top cards */
+  background: #162235;
   border-radius: 12px;
   padding: 20px;
-  color: #cbd5e1; /* softer text */
+  color: #cbd5e1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -93,7 +93,7 @@ section {
 }
 
 .project-card h3 {
-  color: #60a5fa; /* same blue as headings above */
+  color: #60a5fa;
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
