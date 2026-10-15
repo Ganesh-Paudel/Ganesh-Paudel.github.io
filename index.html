@@ -1,113 +1,96 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ganesh Paudel</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<nav class="navbar">
-  <div class="logo">Ganesh Paudel</div>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#goals">Goals</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<header class="hero">
-  <h1>Ganesh Paudel</h1>
-  <p>Computer Science Student | Backend Development | Machine Learning</p>
-  <a href="#projects" class="btn">View Projects</a>
-</header>
-
-<section id="about">
-  <h2>About</h2>
-  <p>
-    I am a Computer Science student with a strong interest in backend systems,
-    data analysis, and machine learning. My work focuses on building practical
-    software systems, exploring algorithms, and understanding how data-driven
-    models operate.
-
-    I enjoy developing tools that improve productivity, analyzing real-world
-    datasets, and experimenting with new technologies.
-
-    Currently, I am focused on expanding my experience in backend development
-    and machine learning while building projects that demonstrate strong
-    problem-solving and engineering principles.
-  </p>
-</section>
-
-<section id="goals">
-  <h2>Goals</h2>
-  <p>
-    My goal is to develop expertise in building scalable software systems and
-    intelligent applications.
-
-    Areas of focus include backend engineering, machine learning systems,
-    software architecture, and performance optimization.
-
-    Through continuous learning and hands-on projects, I aim to build impactful
-    software that solves real-world problems while strengthening my
-    understanding of modern computing systems.
-  </p>
-</section>
-
-<section id="skills">
-  <h2>Skills</h2>
-
-  <div class="skills-container">
-
-    <div class="skill-category">
-      <h3>Programming</h3>
-      <ul>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C++</li>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1622">
+    <meta name="description" content="Ganesh Paudel — Computer Science student exploring backend development, machine learning, and practical software systems.">
+    <title>Ganesh Paudel · Developer & Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home"><span class="logo-mark">gp.</span> Ganesh Paudel</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+      <ul class="nav-links" id="navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
       </ul>
-    </div>
-
-    <div class="skill-category">
-      <h3>Technologies</h3>
-      <ul>
-        <li>Git / GitHub</li>
-        <li>Docker</li>
-        <li>REST APIs</li>
-      </ul>
-    </div>
-
-    <div class="skill-category">
-      <h3>Areas of Interest</h3>
-      <ul>
-        <li>Backend Development</li>
-        <li>Machine Learning</li>
-        <li>Data Analysis</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <div id="project-container" class="project-grid"></div>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: paudelganesh080@gmail.com</p>
-  <p>GitHub: https://github.com/Ganesh-Paudel</p>
-</section>
-
-<footer>
-  <p>© 2026 Ganesh Paudel</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    </nav>
+    <header class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> LEARNING. BUILDING. EXPLORING.</p>
+        <h1>Curiosity in.<br><span>Possibilities out.</span></h1>
+        <p class="hero-intro">Hi, I’m <strong>Ganesh Paudel.</strong> A Computer Science student turning ideas into practical software, one problem at a time.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">Explore my work <span aria-hidden="true">↗</span></a>
+          <a href="#contact" class="secondary-link">Let’s connect <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-topics"><span>BACKEND DEVELOPMENT</span><span>MACHINE LEARNING</span><span>DATA ANALYSIS</span></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbital orbital-one"></div>
+        <div class="orbital orbital-two"></div>
+        <div class="orbital orbital-three"></div>
+        <div class="core"><span>&lt;/&gt;</span></div>
+        <span class="floating-label label-one">build.with(purpose)</span>
+        <span class="floating-label label-two">curiosity → code</span>
+        <span class="visual-coordinate">IDEAS / SYSTEMS / IMPACT</span>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+    </header>
+    <main>
+      <section id="about" class="split-section">
+        <div class="section-title"><p class="eyebrow">01 / THE PERSON</p><h2>A little<br>about me.</h2></div>
+        <div class="section-copy">
+          <p class="lead">I’m interested in what happens beneath the surface: the systems, algorithms, and data that make software work.</p>
+          <p>I am a Computer Science student with a strong interest in backend systems, data analysis, and machine learning. My work focuses on building practical software systems, exploring algorithms, and understanding how data-driven models operate.</p>
+          <p>I enjoy developing tools that improve productivity, analyzing real-world datasets, and experimenting with new technologies. Currently, I am expanding my experience in backend development and machine learning through projects grounded in problem-solving and engineering principles.</p>
+        </div>
+      </section>
+      <section id="goals" class="split-section">
+        <div class="section-title"><p class="eyebrow">02 / THE DIRECTION</p><h2>Always a<br>step further.</h2></div>
+        <div class="section-copy">
+          <p class="lead">Build scalable software systems and intelligent applications that solve real problems.</p>
+          <p>My focus includes backend engineering, machine learning systems, software architecture, and performance optimization. Through continuous learning and hands-on projects, I aim to build impactful software while strengthening my understanding of modern computing systems.</p>
+          <div class="focus-line"><span>Learn deeply.</span><span>Build thoughtfully.</span><span>Keep improving.</span></div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="section-heading"><div><p class="eyebrow">03 / THE TOOLKIT</p><h2>Tools for the next idea.</h2></div><p>A foundation to build on.<br>A mindset to keep learning.</p></div>
+        <div class="skills-container">
+          <div class="skill-category"><span class="card-symbol" aria-hidden="true">{ }</span><h3>Programming</h3><ul><li>Python</li><li>Java</li><li>C++</li></ul></div>
+          <div class="skill-category"><span class="card-symbol" aria-hidden="true">⌘</span><h3>Technologies</h3><ul><li>Git / GitHub</li><li>Docker</li><li>REST APIs</li></ul></div>
+          <div class="skill-category"><span class="card-symbol" aria-hidden="true">◎</span><h3>Areas of interest</h3><ul><li>Backend Development</li><li>Machine Learning</li><li>Data Analysis</li></ul></div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="section-heading"><div><p class="eyebrow">04 / SELECTED WORK</p><h2>Ideas, put into practice.</h2></div><a class="secondary-link" href="https://github.com/Ganesh-Paudel" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a></div>
+        <div id="project-container" class="project-grid" aria-live="polite"><p class="project-loading">Loading projects…</p></div>
+        <noscript><p>View my projects on <a href="https://github.com/Ganesh-Paudel">GitHub</a>. Enable JavaScript to see the project collection here.</p></noscript>
+      </section>
+      <section id="writing">
+        <div class="section-heading"><div><p class="eyebrow">05 / BEYOND THE CODE</p><h2>A different perspective.</h2></div><p>Exploring the ideas<br>that connect us.</p></div>
+        <a class="blog-feature" href="blog/index.html">
+          <div class="blog-art" aria-hidden="true"><div class="mini-globe"></div><span class="blog-art-label">EARTH OBSERVATION<br>HUMAN IMPACT</span><span class="blog-art-cross">＋</span></div>
+          <div class="blog-copy"><p class="eyebrow">FEATURED STORY · SATELLITES & SOCIETY</p><h3>From up here,<br>we see a way forward.</h3><p>How satellites help communities prepare for disasters, respond when it matters, and recover. A closer look at Sentinel Asia and the people behind the data.</p><span class="blog-cta">Read Above / Beyond <span aria-hidden="true">↗</span></span></div>
+        </a>
+      </section>
+      <section id="contact" class="contact-section">
+        <p class="eyebrow">06 / START A CONVERSATION</p>
+        <h2>Good things start<br>with <span>a hello.</span></h2>
+        <p>Have an idea, a question, or a shared interest? Let’s connect.</p>
+        <div class="contact-links"><a href="mailto:paudelganesh080@gmail.com">paudelganesh080@gmail.com <span aria-hidden="true">↗</span></a><a href="https://github.com/Ganesh-Paudel" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+    <footer><a class="logo" href="#home"><span class="logo-mark">gp.</span> Ganesh Paudel</a><p>© 2026 · Built with curiosity.</p><button id="motion-toggle" type="button" aria-pressed="false">Pause animations</button><a href="#home" class="back-top">Back to top ↑</a></footer>
+  </body>
 </html>

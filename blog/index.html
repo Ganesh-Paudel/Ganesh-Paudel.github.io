@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101f2b">
+    <meta name="description" content="How satellites help communities prepare, respond, and recover. An interactive story based on Kazuya Kaku’s Sentinel Asia research.">
+    <title>Above / Beyond — How satellites help communities</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#story">Skip to the story</a>
+    <div class="progress" aria-hidden="true">
+      <span id="progress"></span>
+    </div>
+    <header class="header">
+      <a class="brand" href="#home" aria-label="Above Beyond home"><span class="brand-icon">✳</span> ABOVE <span class="slash">/</span> BEYOND<span class="brand-sub">A DIFFERENT PERSPECTIVE</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#story">The story</a><a href="#field-notes">Field notes</a><a href="#takeaway">The takeaway</a>
+      </nav>
+      <a class="source-link" href="#sources">Explore the research <span>↗</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </header>
+    <main id="home">
+      <section class="hero">
+        <div class="hero-top">
+          <span class="eyebrow"><span class="dot"></span> EARTH OBSERVATION / HUMAN IMPACT</span><span class="issue">FIELD JOURNAL — 001</span>
+        </div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="small-label">
+              A BIGGER PICTURE. A BETTER RESPONSE.
+            </p>
+            <h1>
+              From up here,<br>we see a way<br><em>forward.</em>
+            </h1>
+            <p class="hero-description">
+              How satellites help communities prepare for disasters, respond when it matters, and find their way back.
+            </p>
+            <a class="button" href="#story">Discover the story <span>↘</span></a>
+            <div class="hero-meta">
+              <span>SCIENCE, MADE HUMAN</span><span>~7 MIN READ</span>
+            </div>
+          </div>
+          <figure class="hero-art image-placeholder" data-placeholder="hero" aria-label="Placeholder for an Earth observation image">
+            <div class="orbit orbit-one">
+            </div>
+            <div class="orbit orbit-two">
+            </div>
+            <div class="globe">
+              <div class="globe-grid">
+              </div>
+              <div class="land land-one">
+              </div>
+              <div class="land land-two">
+              </div>
+              <div class="land land-three">
+              </div>
+              <div class="scan">
+              </div>
+            </div>
+            <div class="satellite" aria-hidden="true">
+              <i></i><b></b><i></i>
+            </div>
+            <div class="coordinate c1">
+              27.0° N / 87.0° E
+            </div>
+            <div class="coordinate c2">
+              LOOKING CLOSER.<br>SEEING FURTHER.
+            </div>
+            <figcaption>
+              <span class="cross">＋</span> EARTH FROM ABOVE <small>IMAGE PLACEHOLDER 01</small>
+            </figcaption>
+            <span class="art-corner">↗</span>
+          </figure>
+        </div>
+        <div class="hero-bottom">
+          <span>Space technology. Ground-level change.</span><a href="#quick-look">THE 30-SECOND VERSION <span>↓</span></a>
+        </div>
+      </section>
+      <section id="quick-look" class="quick-look wrap">
+        <div>
+          <span class="eyebrow">SHORT ON TIME?</span>
+          <h2>
+            The big idea,<br>in three small steps.
+          </h2>
+        </div>
+        <div class="quick-item">
+          <span>01 / OBSERVE</span>
+          <h3>
+            See the whole picture.
+          </h3>
+          <p>
+            Satellites reveal disaster impacts across large, hard-to-reach regions.
+          </p>
+        </div>
+        <div class="quick-item">
+          <span>02 / CONNECT</span>
+          <h3>
+            Make the data meaningful.
+          </h3>
+          <p>
+            Local knowledge and population records turn an image into useful information.
+          </p>
+        </div>
+        <div class="quick-item">
+          <span>03 / ACT</span>
+          <h3>
+            Put people first.
+          </h3>
+          <p>
+            Trained teams use that information to support relief, recovery, and preparation.
+          </p>
+        </div>
+      </section>
+      <div class="story-layout wrap" id="story">
+        <aside class="contents">
+          <span class="eyebrow">IN THIS STORY</span><a href="#bigger-picture" class="active">01 <span>A view from space</span></a><a href="#human-network">02 <span>The human network</span></a><a href="#field-notes">03 <span>On the ground</span></a><a href="#disaster-cycle">04 <span>Before, during, after</span></a><a href="#takeaway">05 <span>What really matters</span></a>
+          <div class="reading">
+            <span id="reading-status">YOUR READING JOURNEY</span>
+            <div>
+              <i id="side-progress"></i>
+            </div>
+            <span id="read-percent">0% explored</span>
+          </div>
+          <button id="motion-toggle" class="text-button" aria-pressed="false">Pause animations ◫</button>
+        </aside>
+        <article>
+          <section id="bigger-picture" class="chapter">
+            <div class="section-heading">
+              <span class="chapter-number">01</span><span class="eyebrow">A VIEW FROM SPACE</span>
+            </div>
+            <h2>
+              When the ground changes,<br>perspective changes everything.
+            </h2>
+            <p class="lead">
+              A major disaster can change an entire region. For emergency workers, the first challenge is understanding where help is needed.
+            </p>
+            <p>
+              Roads may be damaged. Settlements may be cut off. Seeing the full extent of the damage from the ground can be difficult. Satellites offer another perspective: they gather information about Earth’s surface from space, helping teams see affected areas on a much larger scale.
+            </p>
+            <p>
+              In his research on <strong>Sentinel Asia</strong>, Kazuya Kaku examines how this information can help communities prepare for disasters, respond to emergencies, and recover afterward. His central argument reaches beyond the instruments in orbit: the people who operate and use these systems are just as important as the technology.
+            </p>
+            <div class="definition">
+              <span class="definition-symbol">◎</span>
+              <div>
+                <span class="eyebrow">ONE TERM TO KNOW</span>
+                <h3>
+                  Remote sensing
+                </h3>
+                <p>
+                  Studying something from a distance, without touching it. Satellite instruments detect energy reflected or released by Earth, or send signals and measure what comes back.
+                </p>
+              </div>
+            </div>
+            <p>
+              Those measurements help researchers observe conditions on the ground. Some sensors capture reflected light; radar sensors send out their own signals. Different instruments bring different strengths, so the right observations depend on the task and conditions.
+            </p>
+            <details>
+              <summary>
+                Why can’t every satellite see through clouds? <span>+</span>
+              </summary>
+              <p>
+                Optical sensors depend on suitable light and clear views. Radar can gather observations through clouds and in darkness. The research describes the combined capabilities of satellite systems; an individual sensor does not do everything.
+              </p>
+            </details>
+          </section>
+          <section id="human-network" class="chapter">
+            <div class="section-heading">
+              <span class="chapter-number">02</span><span class="eyebrow">THE HUMAN NETWORK</span>
+            </div>
+            <h2>
+              A satellite can collect data.<br>A network makes it useful.
+            </h2>
+            <figure class="field-image">
+                <img
+                  src="assets/satelliteWork.png"
+                  alt="Flooding along the Saptakoshi River in Nepal"
+                >
+                <figcaption>
+                  How Satellite Data Becomes Useful. A satellite collects information about Earth’s surface. Specialists process the measurements and interpret what they show. Local organizations use the results to guide decisions. Online mapping tools help these groups share information about affected areas.
+                  Photo credit: chatgpt-generated.
+                </figcaption>
+            </figure>
+            <p>
+              Sentinel Asia was established in <strong>2006</strong> to support disaster management in the Asia-Pacific region. It brings together space agencies, disaster management organizations, universities, and other institutions, each contributing a different kind of expertise.
+            </p>
+            <p>
+              Space agencies provide observations. Specialists process the measurements and interpret what they show. Local organizations use the results to guide decisions. Online mapping tools help these groups share information about affected areas.
+            </p>
+            <div class="data-chain" aria-label="From satellite observations to local action">
+              <div>
+                <span>↗</span><strong>Observe</strong><small>Space agencies</small>
+              </div>
+              <b>→</b>
+              <div>
+                <span>⌘</span><strong>Interpret</strong><small>Data specialists</small>
+              </div>
+              <b>→</b>
+              <div>
+                <span>⌖</span><strong>Respond</strong><small>Local teams</small>
+              </div>
+            </div>
+            <p>
+              Kaku studies real examples of this cooperation, taking into account the disasters different countries face and the way local disaster management organizations work. Sentinel Asia itself developed in stages, gradually expanding its network of data providers, analysts, and users.
+            </p>
+            <blockquote>
+              Better information needs a path from space to the people who can use it.
+              <cite>
+                THE RESEARCH’S CENTRAL IDEA, IN PLAIN LANGUAGE
+              </cite>
+            </blockquote>
+          </section>
+          <section id="field-notes" class="chapter">
+            <div class="section-heading">
+              <span class="chapter-number">03</span><span class="eyebrow">FIELD NOTES / NEPAL</span>
+            </div>
+            <h2>
+              One broken embankment.<br>Thousands of lives disrupted.
+            </h2>
+            <p class="lead">
+              In August 2008, an embankment along Nepal’s Saptakoshi River broke. Water entered nearby settlements, turning a regional emergency into a challenge of access, information, and response.
+            </p>
+            <figure class="field-image">
+                <img
+                  src="assets/koshiFlood.png"
+                  alt="Flooding along the Saptakoshi River in Nepal"
+                >
+                <figcaption>
+                  Saptakoshi River, Nepal — August 2008.
+                  Photo credit: https://reliefweb.int/map/nepal/koshi-river-flood-nepal-location-shelter-sites-population-sunsari-district-9-sept-2008.
+                </figcaption>
+            </figure>
+            <div class="stats">
+              <div>
+                <strong>40,000</strong><span>local residents affected</span>
+              </div>
+              <div>
+                <strong>5 km</strong><span>of highway damaged</span>
+              </div>
+              <div>
+                <strong>2008</strong><span>the Nepal flood case study</span>
+              </div>
+            </div>
+            <p>
+              The flood damaged a five-kilometer stretch of the East–West Highway and a bridge, disrupting transportation. Following requests from organizations in Nepal, the Japan Aerospace Exploration Agency (<strong>JAXA</strong>) used its Advanced Land Observing Satellite (<strong>ALOS</strong>) to observe the flooded region. Specialists identified inundated areas and provided the results to the Nepalese government.
+            </p>
+            <div class="insight">
+              <span class="eyebrow">THE MOMENT DATA BECOMES A DECISION</span>
+              <h3>
+                Flood extent + census records<br><em>= a clearer picture of human impact.</em>
+              </h3>
+              <p>
+                A map of water shows where flooding happened. Add records of people and houses, and it becomes possible to estimate which communities, homes, and residents were affected.
+              </p>
+            </div>
+            <p>
+              Combining satellite observations with census information helped teams map affected communities and estimate the scale of the damage. These results could support rescue activities, recovery planning, and the distribution of relief payments.
+            </p>
+            <p>
+              The lesson is practical: a satellite image becomes more valuable when it connects with the information and decisions local organizations actually need.
+            </p>
+            <div class="more-cases">
+              <span class="eyebrow">BEYOND THE DRAFT / FROM THE MAIN RESEARCH</span>
+              <h3>
+                Two more places. The same human connection.
+              </h3>
+              <details>
+                <summary>
+                  <span>Thailand <small>FLOODING · 2010</small></span><span>+</span>
+                </summary>
+                <p>
+                  During the October 2010 floods, Thailand’s GISTDA used ALOS imagery to make inundation maps and report to the cabinet. Overlaying housing information helped count affected homes and inform government relief payments.
+                </p>
+              </details>
+              <details>
+                <summary>
+                  <span>The Philippines <small>PREPAREDNESS · SINCE 2009</small></span><span>+</span>
+                </summary>
+                <p>
+                  The Sentinel Asia Success Story brought together capacity building, hazard mapping, rainfall-based landslide warning work, and volcano monitoring. Maps of hazards around Mayon helped connect advance preparation with observations during an eruption and later revisions of lahar hazard maps.
+                </p>
+              </details>
+            </div>
+          </section>
+          <section id="disaster-cycle" class="chapter">
+            <div class="section-heading">
+              <span class="chapter-number">04</span><span class="eyebrow">BEFORE, DURING, AFTER</span>
+            </div>
+            <h2>
+              Disaster support<br>doesn’t start at the disaster.
+            </h2>
+            <p>
+              The research takes a holistic view: technology, local needs, support systems, and human relationships all matter. A staged approach helps the network grow while responding to what users need.
+            </p>
+            <p>
+              Explore how these ideas fit across the disaster cycle.
+            </p>
+            <div class="cycle-tabs" role="tablist" aria-label="Disaster management phases">
+              <button role="tab" id="tab-before" aria-controls="phase-panel" aria-selected="true" data-phase="before">01 / Before</button><button role="tab" id="tab-during" aria-controls="phase-panel" aria-selected="false" tabindex="-1" data-phase="during">02 / During</button><button role="tab" id="tab-after" aria-controls="phase-panel" aria-selected="false" tabindex="-1" data-phase="after">03 / After</button>
+            </div>
+            <div class="phase-panel" id="phase-panel" role="tabpanel" tabindex="0" aria-labelledby="tab-before">
+              <span class="eyebrow" id="phase-label">PREPARE & BUILD CONNECTIONS</span>
+              <h3 id="phase-title">
+                Build the network before you need it.
+              </h3>
+              <p id="phase-description">
+                Emergency workers need to know satellite information is available and understand how to use it. Training, communication, hazard mapping, and continued cooperation help teams prepare before an emergency happens.
+              </p>
+              <span class="phase-footer" id="phase-footer">THE PRIORITY → SHARED KNOWLEDGE</span>
+            </div>
+          </section>
+          <section id="takeaway" class="chapter takeaway">
+            <span class="eyebrow">05 / THE TAKEAWAY</span>
+            <h2>
+              Technology sees.<br><em>People make<br>the difference.</em>
+            </h2>
+            <p>
+              Collecting information from space is only part of the process. People must process the measurements, interpret their meaning, and deliver useful results to emergency workers.
+            </p>
+            <p>
+              Reliable technology, training, and lasting cooperation make that connection possible. The real measure of a satellite system is how well its information helps the communities on the ground.
+            </p>
+            <a href="#quick-look" class="inline-link">Revisit the big idea <span>↗</span></a>
+          </section>
+          <section class="chapter knowledge-check" aria-labelledby="quiz-title">
+            <span class="eyebrow">ONE LAST THOUGHT</span>
+            <h3 id="quiz-title">
+              What made the Nepal flood imagery more useful?
+            </h3>
+            <div class="quiz-options">
+              <button data-correct="false">The image alone showed everyone’s needs</button><button data-correct="true">It was combined with population and housing records</button><button data-correct="false">It replaced the need for local organizations</button>
+            </div>
+            <p id="quiz-feedback" role="status" aria-live="polite">
+            </p>
+          </section>
+          <section id="sources" class="chapter sources">
+            <span class="eyebrow">GO A LITTLE DEEPER</span>
+            <h2>
+              Behind the story.
+            </h2>
+            <p>
+              This blog adapts the supplied English translation draft, with additional context from the primary research. Section headings, summaries, and interactive explanations are editorial adaptations.
+            </p>
+            <a class="source-card" href="assets/satellite-research.pdf" target="_blank" rel="noopener"><span class="pdf-icon">PDF</span><span><strong>The original research</strong><small>Kazuya Kaku · Satellite remote sensing for disaster management support: A holistic and staged approach based on case studies in Sentinel Asia · 2019</small></span><span>↗</span></a>
+          </section>
+        </article>
+      </div>
+      <section class="end-note wrap">
+        <span class="eyebrow">A CHANGE IN PERSPECTIVE</span>
+        <p>
+          The view is from space.<br><em>The impact is right here.</em>
+        </p>
+        <a href="#home" aria-label="Back to top">↑</a>
+      </section>
+    </main>
+    <footer class="wrap">
+      <a href="#home" class="footer-brand">✳ ABOVE / BEYOND</a><span>AN INDEPENDENT SCIENCE STORY · BASED ON SENTINEL ASIA RESEARCH</span><a href="#sources">Sources & credits ↗</a>
+    </footer>
+  </body>
+</html>
